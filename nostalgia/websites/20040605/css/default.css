@@ -1,0 +1,135 @@
+body {
+     margin-left:7px;
+     margin-top:5px;
+     background-image:url(../img/bg.png);
+     }
+
+img {
+    border:0px;
+    vertical-align:top;
+    }
+
+#content {
+         width:800px;
+         font: 8px verdana, georgia, arial, tahoma, sans-serif; color: #707070;
+         }
+
+/*
+               *****
+              topZone
+               *****
+*/
+
+
+#topZone {
+         height:49px;
+         }
+
+#cornerLeftTop {
+               background-image:url(../img/cornerLeftTop.png);
+               background-position:bottom left;
+               background-repeat:repeat-x;
+               width:26px;
+               height:50px;
+               float:left;
+               }
+
+#topBarMenu {
+            background-image:url(../img/topBarMenu.png);
+            background-position:bottom left;
+            background-repeat:repeat-x;
+            height:50px;
+            float:left;
+            vertical-align:bottom;
+            }
+
+#topBar {
+        background-image:url(../img/topBar.png);
+        background-position:bottom left;
+        background-repeat:repeat-x;
+        width:522px;
+        height:50px;
+        float:left;
+        }
+
+#cornerRightTop {
+                background-image:url(../img/cornerRightTop.png);
+                background-position:bottom left;
+                background-repeat:repeat-x;
+                width:26px;
+                height:50px;
+                float:left;
+                }
+
+/*
+               *****
+              middleZone3
+               *****
+*/
+
+#middleZone {
+            width:800px;
+            float:left;
+            }
+
+
+#leftBar {
+         background-image:url(../img/leftBar.png);
+         width:26px;
+         height:528px;
+         float:left;
+         }
+
+#mainWindow {
+            background-image:url(../img/bgMainWindow.png);
+            font: 8pt verdana, georgia, arial, tahoma, sans-serif; color: #000;
+            width:696px;
+            height:514px;
+            float:left;
+            padding:7px;
+            }
+
+#rightBar {
+          background-image:url(../img/rightBar.png);
+          width:26px;
+          height:528px;
+          float:left;
+          }
+
+#bottomZone {
+            height:36px;
+            }
+
+#cornerLeftBottom {
+                  background-image:url(../img/cornerLeftBottom.png);
+                  background-color:#c0c0c0;
+                  width:26px;
+                  height:48px;
+                  float:left;
+                  }
+#bottomBar {
+           background-image:url(../img/bottomBar.png);
+           background-color:#c0c0c0;
+           width:710px;
+           height:48px;
+           float:left;
+           text-align:center;
+           font: 8pt verdana, georgia, arial, tahoma, sans-serif; color: #707070;
+           }
+
+#cornerRightBottom {
+                   background-image:url(../img/cornerRightBottom.png);
+                   background-color:#c0c0c0;
+                   width:26px;
+                   height:48px;
+                   float:left;
+                   }
+
+.padding {
+         padding-left:7px;
+         padding-top:6px;
+         }
+
+a:link {font: 8pt arial, tahoma, sans-serif; color: #8D8D8D;}
+a:visited {font: 8pt arial, tahoma, sans-serif; color: #8D8D8D;}
+a:active {font: 8pt arial, tahoma, sans-serif; color: #8D8D8D;}
