@@ -1,0 +1,106 @@
+<!DOCTYPE<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+	<head>
+		<title>Jonas Karlsson</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="cssjs/style.css">
+    <script type="text/javascript" src="cssjs/jquery.js"></script>
+    <script type="text/javascript" src="cssjs/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="cssjs/fancy.css">
+    <script type="text/javascript" src="cssjs/jquery.pngFix.js"></script>
+    <script type="text/javascript" src="cssjs/jquery.metadata.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			//Activate FancyBox
+			$("p#test1 a").fancybox({
+				'hideOnContentClick': true
+			});
+			
+			$("p#test2 a").fancybox({
+				'zoomSpeedIn':	0, 
+				'zoomSpeedOut':	0, 
+				'overlayShow':	true
+			});
+			
+			$("a#custom_1").fancybox({
+				'itemLoadCallback': getGroupItems
+			});
+			
+			$("a#custom_2, a#custom_3").fancybox({
+				'zoomSpeedIn':	0, 
+				'zoomSpeedOut':	0
+			});
+			
+			//Some lines for this page
+			$("div#donate").bind("click", function() {
+				$("#donate_form").submit()
+			});
+			
+			$("#comment_form").attr("action", "/fancy/add_comment"); $("#age").val('fancy'); //die spamers, die...
+		});
+
+		//List can contain mixed media too
+		//Parameter "o" ir optional and used to override settings, example: {url: "http://www.google.com", title: false,  o: {'frameWidth': 200} }
+		var imageList = [
+			{url: "/img/examples/6_b.jpg", title: "First image"},
+			{url: "/img/examples/7_b.jpg", title: "Second image"},
+			{url: "/img/examples/8_b.jpg", title: "Third image"}
+		];
+		
+		function getGroupItems(opts) {
+			jQuery.each(imageList, function(i, val) {
+		        opts.itemArray.push(val);
+		    });
+		}
+		
+	</script>
+	</head>
+	<body>
+	  <div id="mainscreen">
+	    <div id="header">
+	      <div class="title">
+	        <h1 class="title-one">Hejsan, jag heter Jonas Karlsson.</h1>
+          <h1 class="title-two">Jag pysslar med webb & reklam.</h1>
+        </div>
+        <div class="picture">
+          <img class="profile" src="images/jk-profile.png" alt="Bild - Jonas Karlsson"/>
+	      </div>
+	    </div><!-- /header -->
+      <div id="container">&nbsp;
+      <div id="column-left">
+        <h2 class="title-who">Vem jag �r</h2>
+        <p><span>Jag �r 3x3x3 �r fyllda. Produktionsledare inom webbprojekt, entrepren�r, analytisk, id�rik, Informationsingenj�r och innehar F-skattsedel.</span></p>
+        <p><span>Gillar kommentarsfunktioner, att vara digitalt aktiv och blir s�llan helt n�jd.</span></p>
+      </div>
+      <div id="column-middle">
+        <h2 class="title-can">Vad jag kan</h2>
+        <p><span>Bred teknisk kompetens med goda kunskaper i<br/>(X)HTML, CSS, AJAX, JavaScript, PHP, MYSQL och XML/XSLT.</span></p>
+        <p><span>Anv�nder fr�mst Creative Suite 3, Aptana Studio och Visual Studio.</span></p>
+        <p><span>Utbildad att f�rmedla komplicerad information p� ett l�ttf�rst�eligt, effektivt och tilltalande s�tt.</span></p>
+        <h3 class="title-knowledge">Kunskaper i korthet</h3>
+        <ul id="list">
+          <li><span>XHTML, CSS, AJAX och JavaScript</span></li>
+          <li><span>Teknisk dokumentation - p� engelska och svenska</span></li>
+          <li><span>Brett kunnande i m�nga programmeringsspr�k, tekniker och n�tliv</span></li>
+        </ul>
+      </div>
+      <div id="column-right">
+        <h2 class="title-do">Vad jag g�r</h2>
+        <p><span>Brinner f�r webb & reklam, anv�ndbarhet, mindre kod, begriplig design och hj�lper folk fram�t.</span></p>
+        <p><span>N�gra projekt som engagerat mig.</span></p>
+        <p id="test1">
+          <a href="images/work_jernhusen.jpg" title="Intran�t med mycket Web 2.0 k�nsla, byggt i EPiServer"><img src="images/work_jernhusen-thn.jpg" alt=""/></a>
+          <a href="images/work_vidbynas.jpg" title="Webbplats f�r Vidbyn�s Golf Club baserad p� Wordpress"><img src="images/work_vidbynas-thn.jpg" alt=""/></a>
+          <a href="images/work_ba.jpg" title="Ny sajt f�r Becker Acroma, baserad p� EPiServer"><img src="images/work_ba-thn.jpg" alt=""/></a>
+          <a href="images/work_solna.jpg" title="Flashbaserad presentation"><img src="images/work_solna-thn.jpg" alt=""/></a>
+          <a href="images/work_collectum.jpg" title="Koncept/id� och viss produktion f�r diverse verktyg utvecklade i Flash"><img src="images/work_collectum-thn.jpg" alt=""/></a>
+          <a href="images/work_jarvastaden.jpg" title="Implementering av EPiServer och enklare re-design"><img src="images/work_jarvastaden-thn.jpg" alt=""/></a>
+          <a href="images/work_kungsbrohuset.jpg" title="Profilering och marknadsf�ring av unikt milj�projekt"><img src="images/work_kungsbrohuset-thn.jpg" alt=""/></a>
+          <a href="images/work_pri.jpg" title="Ny EPiServer sajt f�r PRI Pensionstj�nst"><img src="images/work_pri-thn.jpg" alt=""/></a>
+        </p>
+      </div><!-- /column-right -->
+      </div><!-- /container -->
+	  </div><!-- /mainscreen -->
+	</body>
+</html>

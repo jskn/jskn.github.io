@@ -1,0 +1,131 @@
+body {
+	background:#333 url(../images/background.jpg) repeat;
+	font:62.5% verdana, sans-serif;
+	color:#b8b89f;
+  margin:0; padding:0;
+  text-align:center;
+}
+
+a {outline:none;}
+
+#mainscreen {
+  width:1100px;
+  margin:0 auto;
+  text-align:left;
+}
+
+#header {
+  width:100%; height:238px;
+  background:transparent url(../images/line.png) 15px 0px no-repeat;
+  behavior:url(iepngfix.htc);
+  margin:0 0 0 3px;
+  _margin:0 0 0 18px;
+}
+
+.title {
+  margin:120px 50px 0 110px;
+  _margin:80px 20px 0 55px;
+  float:left;
+}
+
+.picture {
+  margin:60px 0 0 0;
+  _margin:40px 0 0 30px;
+  float:left;
+}
+
+.profile {behavior:url(iepngfix.htc);}
+
+#container {
+  width:1100px; height:600px;
+  background:url(../images/arrows.png) no-repeat;
+  behavior:url(iepngfix.htc);
+}
+
+#column-left {
+  width:320px;
+  margin:350px 60px 0 16px;
+  _margin:350px 65px 0 0;
+  float:left;
+}
+
+#column-middle {
+  width:320px;
+  margin:0 60px 0 0;
+  float:left;
+}
+
+#column-right {
+  width:320px;
+  float:left;
+}
+
+
+p#test1 img {margin:5px 0 5px 20px; border:3px #000 solid;}
+
+p#test1 img a {outline:hidden;}
+hr.block {display:block; clear:both; visibility:hidden;}
+
+h1, h2, h3, h4, h5, h6 {font-family:arial, sans-serif; color:#ccc; margin:0; padding:0;}
+
+h1 {margin:0 0 5px 0;}
+
+h1.title-one {
+  width:391px; height:27px;
+  background:url(../images/title-one.png) no-repeat;
+  display:block;
+  text-indent:-9999px;
+  behavior:url(iepngfix.htc);
+}
+
+h1.title-two {
+  width:414px; height:27px;
+  background:url(../images/title-two.png) no-repeat;
+  display:block;
+  text-indent:-9999px;
+  behavior:url(iepngfix.htc);
+}
+
+h2.title-who {
+  width:128px; height:27px;
+  background:url(../images/title-who.png) no-repeat;
+  margin:15px 0 5px 0;
+  display:block;
+  text-indent:-9999px;
+  behavior:url(iepngfix.htc);
+}
+
+h2.title-do {
+  width:135px; height:27px;
+  background:url(../images/title-do.png) no-repeat;
+  margin:20px 0 5px 0;
+  display:block;
+  text-indent:-9999px;
+  behavior:url(iepngfix.htc);
+}
+
+h2.title-can {
+  width:179px; height:27px;
+  background:url(../images/title-can.png) no-repeat;
+  margin:137px 0 5px 0;
+  display:block;
+  text-indent:-9999px;
+  behavior:url(iepngfix.htc);
+}
+
+h3.title-knowledge {
+  width:175px; height:20px;
+  background:url(../images/title-knowledge.png) no-repeat;
+  margin:15px 0 3px 0;
+  display:block;
+  text-indent:-9999px;
+  behavior:url(iepngfix.htc);
+}
+
+ul#list {margin:0; padding:0; list-style-type:none; font-size:12px; line-height:150%;}
+p {margin:0 0 5px 0; font-size:12px; line-height:150%;}
+span {background:#000; padding:1px 2px;}
+
+a:link {color:#d66831; text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:visited {color:#d66831; text-decoration:underline;}
